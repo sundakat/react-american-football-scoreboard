@@ -16,11 +16,11 @@ function App() {
     setAwayScore(awayScore + 6);
   }
 
-  const homeFeildGoal = (event) => {
+  const homeFieldGoal = (event) => {
     setHomeScore(homeScore + 3);
   }
 
-  const awayFeildGoal = (event) => {
+  const awayFieldGoal = (event) => {
     setAwayScore(awayScore + 3);
   }
 
