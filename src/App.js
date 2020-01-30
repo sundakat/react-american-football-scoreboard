@@ -54,8 +54,8 @@ function App() {
           <button className="homeButtons__touchdown" onClick={homeTouchdown}>Home Touchdown</button>
           <button className="homeButtons__fieldGoal" onClick={homeFieldGoal}>Home Field Goal</button>
         </div>
-        <div className="buttons">
-          <button className="resetButton__scoreReset" onClick={reset}>Reset</button>
+        <div className="homeButtons">
+          <button className="homeButtons__fieldGoal" onClick={reset}>Reset</button>
         </div>
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick={awayTouchdown}>Away Touchdown</button>
